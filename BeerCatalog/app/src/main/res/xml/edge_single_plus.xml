@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cocktail-provider
+    cocktailWidth="550"
+    description="@string/edge_description"
+    label="@string/edge_name"
+    permitVisibilityChanged="true"
+    previewImage="@drawable/edge_screen_preview" />

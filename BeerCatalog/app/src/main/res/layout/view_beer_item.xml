@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_padding_small"
+        android:layout_marginEnd="@dimen/margin_padding"
+        android:layout_marginStart="@dimen/margin_padding"
+        android:layout_marginTop="@dimen/margin_padding_small"
+        android:background="@drawable/shape_beer_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_beer_name"
+            style="@style/TextView.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Name" />
+
+        <TextView
+            android:id="@+id/tv_beer_alcohol"
+            style="@style/TextView.Detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Alcohol" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_beer_volume"
+                style="@style/TextView.Detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_padding"
+                tools:text="Volume" />
+
+            <TextView
+                android:id="@+id/tv_beer_price"
+                style="@style/TextView.Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                tools:text="Price" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

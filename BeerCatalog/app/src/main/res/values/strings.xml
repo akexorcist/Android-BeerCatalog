@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Beer Catalog</string>
+    <string name="edge_name">Beer Catalog</string>
+    <string name="edge_description">The awesome catalog of beer for drunker</string>
+    <string name="beer_price">%d ฿</string>
+    <string name="beer_unavailable">Sorry, beer is out of stock</string>
+</resources>
